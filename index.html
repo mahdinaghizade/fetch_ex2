@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/font.css">
+    <title>Document</title>
+  </head>
+  <body id="body">
+
+    <div id="alert1" class="bg-red-500 border-t-4 border-red-500 rounded-b text-red-900 px-4 py-3 shadow-md alert_one" role="alert">
+      <div class="flex">
+        <div class="py-1"><svg class="fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"/></svg></div>
+        <div>
+          <p class="font-bold">هشدار</p>
+          <p class="text-sm">اطلاعات وارد شده صحیح نیست لطفا پسورد خورد را با دقت وارد کنید </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="alert2" class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md   alerttwo" role="alert">
+      <div class="flex">
+        <div class="py-1"><svg class="fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"/></svg></div>
+        <div>
+          <p id="speak" class="font-bold text-center">
+            تبریک شما با موفقیت وارد شدین
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div
+      id="mamad"
+      class="mx-auto border border-blue-950 text-white w-[100px] bg-blue-600 px-[15px] py-[10px] mt-[25px] rounded dark:bg-slate-500"
+    >
+      تغییر مود
+    </div>
+
+    <div
+      class="md:w-[500px] md:mx-auto md:mt-[50px] md:border sm:w-[100%] sm:mx-auto sm:mt-[100px] sm:border dark:bg-slate-700 mahdi"
+    >
+      <div
+        class="text-sm font-medium text-center text-gray-500 dark:text-gray-400 dark:border-gray-700"
+      >
+        <ul class="flex flex-wrap -mb-px">
+          <li id="one" class="mr-2">
+            <a
+              href="#"
+              class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+              >ورود</a
+            >
+          </li>
+          <li id="two" class="mr-2">
+            <a
+              href="#"
+              class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+              >ثبت نام</a
+            >
+          </li>
+        </ul>
+        <!-- ورود -->
+        <div id="log_in" class="active_div dark:bg-slate-700 rounded">
+          <div class="mt-[30px] w-[100%] flex flex-col mr-[15px]">
+            <label class="text-right dark:text-gray-300" for="name"
+              >نام کاربری را وارد کنید</label
+            >
+            <input
+              class="w-[80%] mt-[10px] border border-black h-[35px] px-[25px] mx-auto dark:bg-black"
+              type="text"
+              name="name"
+              id="Namekarbari"
+              placeholder="نام کاربری"
+            />
+          </div>
+
+          <div class="mt-[30px] w-[100%] flex flex-col mr-[15px]">
+            <label class="text-right dark:text-gray-300" for="pass"
+              >رمز ورود</label
+            >
+            <input
+              class="w-[80%] mt-[10px] border border-black h-[35px] px-[25px] mx-auto dark:bg-black"
+              type="password"
+              name="pass"
+              id="pass_login"
+            />
+          </div>
+
+          <button
+            id="enter"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mx-auto mt-[50px] mb-[50px] dark:bg-slate-500"
+          >
+            ورود
+          </button>
+        </div>
+      </div>
+
+      <!-- ثبت نام -->
+      <div id="sign_in" class="">
+        <div class="mt-[30px] w-[100%] flex flex-col dark:text-gray-300">
+          <div class="mt-[30px] w-[100%] flex flex-col mr-[15px]">
+            <label class="text-right" for="name">نام و نام خانوادگی</label>
+            <input
+              class="w-[80%] mt-[10px] border border-black h-[35px] px-[25px] mx-auto dark:bg-black" 
+              type="text"
+              name="name"
+              placeholder="مهدی نقی زاده "
+              id="name_sign_in"
+            />
+          </div>
+
+          <div class="mt-[30px] w-[100%] flex flex-col mr-[15px]">
+            <label class="text-right" for="name">نام کاربری </label>
+            <input
+              class="w-[80%] mt-[10px] border border-black h-[35px] px-[25px] mx-auto dark:bg-black"
+              type="text"
+              name="name"
+              placeholder="نام کاربری"
+              id="namekarbari_sign_in"
+            />
+          </div>
+
+          <div class="mt-[30px] w-[100%] flex flex-col mr-[15px]">
+            <label class="text-right" for="name"> موبایل </label>
+            <input
+              class="w-[80%] mt-[10px] border border-black h-[35px] px-[25px] mx-auto dark:bg-black"
+              type="phone"
+              name="name"
+              placeholder=" 091212345678"
+              id="mobile_number"
+            />
+          </div>
+
+          <div class="mt-[30px] w-[100%] flex flex-col mr-[15px]">
+            <label class="text-right" for="pass1">رمز ورود</label>
+            <input
+              class="w-[80%] mt-[10px] border border-black h-[35px] px-[25px] mx-auto dark:bg-black"
+              type="password"
+              name="pass1"
+              id="password_sine_in"
+            />
+          </div>
+          <div class="mt-[30px] w-[100%] flex flex-col mr-[15px]">
+            <label class="text-right" for="pass2"> تکرار رمز ورود</label>
+            <input
+              class="w-[80%] mt-[10px] border border-black h-[35px] px-[25px] mx-auto dark:bg-black"
+              type="password"
+              name="pass2"
+              id="repet_password_sine_in"
+            />
+          </div>
+          <button
+          id="sabtname"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mx-auto mt-[50px] mb-[50px] dark:bg-slate-500"
+          >
+            ثبت نام
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

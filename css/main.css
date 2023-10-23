@@ -1,0 +1,48 @@
+*{
+  font-family: karim2;
+}
+.active {
+  color: rgb(236, 236, 237);
+  background-color: blue;
+}
+
+div {
+  direction: rtl;
+}
+
+.active_div {
+  display: none;
+}
+.active_div {
+  display: none;
+}
+
+.dark {
+  background-color: rgb(94, 93, 93);
+}
+
+.mahdi {
+  border-radius: 20px;
+}
+
+
+.alert_one{
+  position: sticky;
+  height: 35vh;
+  direction: rtl;
+  display: none;
+  top:0
+}
+
+
+.alerttwo{
+  position: sticky;
+  height: 20vh;
+  direction: rtl;
+  display: none;
+  top:0
+}
+input{
+  border-radius: 15px;
+
+}
